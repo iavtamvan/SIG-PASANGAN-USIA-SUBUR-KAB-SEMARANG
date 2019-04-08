@@ -44,15 +44,15 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand py-2 px-4" href="../index.html">SIG PUS 2013 - 2017</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand py-2 px-4" href="index.html">SIG PUS 2013 - 2017</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="../index.html" class="nav-link">Home</a></li>
-                <li class="nav-item active"><a href="../about.html" class="nav-link">About</a></li>
+                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="../admin/pages/charts/chartjs.html" class="nav-link">Data</a></li>
+                <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
             </ul>
         </div>
     </div>
@@ -63,7 +63,8 @@
 
 
     <script src="js/qgis2web_expressions.js"></script>
-    <script src="js/leaflet.js"></script><script src="js/L.Control.Locate.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/L.Control.Locate.min.js"></script>
     <script src="js/leaflet.rotatedMarker.js"></script>
     <script src="js/leaflet.pattern.js"></script>
     <script src="js/leaflet-hash.js"></script>
@@ -75,13 +76,15 @@
     <script src="data/kabSemarang2013_0.js"></script>
     <script>
         var highlightLayer;
+
         function highlightFeature(e) {
             highlightLayer = e.target;
             highlightLayer.openPopup();
         }
+
         var map = L.map('map', {
-            zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[-7.45606636094,109.943606804],[-7.01555861473,110.774049169]]);
+            zoomControl: true, maxZoom: 28, minZoom: 1
+        }).fitBounds([[-7.45606636094, 109.943606804], [-7.01555861473, 110.774049169]]);
         var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         L.control.locate().addTo(map);
@@ -98,15 +101,17 @@
             maxZoom: 28
         });
         basemap0.addTo(map);
+
         function setBounds() {
         }
+
         function pop_kabSemarang2013_0(feature, layer) {
             layer.on({
-                mouseout: function(e) {
+                mouseout: function (e) {
                     if (typeof layer.closePopup == 'function') {
                         layer.closePopup();
                     } else {
-                        layer.eachLayer(function(feature){
+                        layer.eachLayer(function (feature) {
                             feature.closePopup()
                         });
                     }
@@ -137,7 +142,7 @@
         }
 
         function style_kabSemarang2013_0_0(feature) {
-            if (feature.properties['<20thn'] >= 39.000000 && feature.properties['<20thn'] <= 50.000000 ) {
+            if (feature.properties['<20thn'] >= 39.000000 && feature.properties['<20thn'] <= 50.000000) {
                 return {
                     pane: 'pane_kabSemarang2013_0',
                     opacity: 1,
@@ -151,7 +156,7 @@
                     fillColor: 'rgba(247,251,255,1.0)',
                 }
             }
-            if (feature.properties['<20thn'] >= 50.000000 && feature.properties['<20thn'] <= 100.000000 ) {
+            if (feature.properties['<20thn'] >= 50.000000 && feature.properties['<20thn'] <= 100.000000) {
                 return {
                     pane: 'pane_kabSemarang2013_0',
                     opacity: 1,
@@ -165,7 +170,7 @@
                     fillColor: 'rgba(209,227,243,1.0)',
                 }
             }
-            if (feature.properties['<20thn'] >= 100.000000 && feature.properties['<20thn'] <= 150.000000 ) {
+            if (feature.properties['<20thn'] >= 100.000000 && feature.properties['<20thn'] <= 150.000000) {
                 return {
                     pane: 'pane_kabSemarang2013_0',
                     opacity: 1,
@@ -179,7 +184,7 @@
                     fillColor: 'rgba(154,200,225,1.0)',
                 }
             }
-            if (feature.properties['<20thn'] >= 150.000000 && feature.properties['<20thn'] <= 200.000000 ) {
+            if (feature.properties['<20thn'] >= 150.000000 && feature.properties['<20thn'] <= 200.000000) {
                 return {
                     pane: 'pane_kabSemarang2013_0',
                     opacity: 1,
@@ -193,7 +198,7 @@
                     fillColor: 'rgba(82,157,204,1.0)',
                 }
             }
-            if (feature.properties['<20thn'] >= 200.000000 && feature.properties['<20thn'] <= 250.000000 ) {
+            if (feature.properties['<20thn'] >= 200.000000 && feature.properties['<20thn'] <= 250.000000) {
                 return {
                     pane: 'pane_kabSemarang2013_0',
                     opacity: 1,
@@ -207,7 +212,7 @@
                     fillColor: 'rgba(28,108,177,1.0)',
                 }
             }
-            if (feature.properties['<20thn'] >= 250.000000 && feature.properties['<20thn'] <= 295.000000 ) {
+            if (feature.properties['<20thn'] >= 250.000000 && feature.properties['<20thn'] <= 295.000000) {
                 return {
                     pane: 'pane_kabSemarang2013_0',
                     opacity: 1,
@@ -222,6 +227,7 @@
                 }
             }
         }
+
         map.createPane('pane_kabSemarang2013_0');
         map.getPane('pane_kabSemarang2013_0').style.zIndex = 400;
         map.getPane('pane_kabSemarang2013_0').style['mix-blend-mode'] = 'normal';
@@ -234,15 +240,19 @@
         bounds_group.addLayer(layer_kabSemarang2013_0);
         map.addLayer(layer_kabSemarang2013_0);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Kab Semarang 2013 <20thn <br /><table><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_390075000.png" /></td><td>39.00 - 75.00</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_5000100001.png" /></td><td>50.00 - 100.00</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_10000150002.png" /></td><td>100.00 - 150.00</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_15000200003.png" /></td><td>150.00 - 200.00</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_2000002500004.png" /></td><td>200.000 - 250.000</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_2500002950005.png" /></td><td>250.000 - 295.000</td></tr></table>': layer_kabSemarang2013_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps, {'Kab Semarang 2013 <20thn <br /><table><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_390075000.png" /></td><td>39.00 - 75.00</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_5000100001.png" /></td><td>50.00 - 100.00</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_10000150002.png" /></td><td>100.00 - 150.00</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_15000200003.png" /></td><td>150.00 - 200.00</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_2000002500004.png" /></td><td>200.000 - 250.000</td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2013_0_2500002950005.png" /></td><td>250.000 - 295.000</td></tr></table>': layer_kabSemarang2013_0,}, {collapsed: false}).addTo(map);
         setBounds();
         var i = 0;
-        layer_kabSemarang2013_0.eachLayer(function(layer) {
+        layer_kabSemarang2013_0.eachLayer(function (layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['kecamatan'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['kecamatan']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_kabSemarang2013_0'});
+            layer.bindTooltip((layer.feature.properties['kecamatan'] !== null ? String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['kecamatan']) + '</div>' : ''), {
+                permanent: true,
+                offset: [-0, -16],
+                className: 'css_kabSemarang2013_0'
+            });
             labels.push(layer);
             totalMarkers += 1;
             layer.added = true;
@@ -250,13 +260,13 @@
             i++;
         });
         resetLabels([layer_kabSemarang2013_0]);
-        map.on("zoomend", function(){
+        map.on("zoomend", function () {
             resetLabels([layer_kabSemarang2013_0]);
         });
-        map.on("layeradd", function(){
+        map.on("layeradd", function () {
             resetLabels([layer_kabSemarang2013_0]);
         });
-        map.on("layerremove", function(){
+        map.on("layerremove", function () {
             resetLabels([layer_kabSemarang2013_0]);
         });
     </script>

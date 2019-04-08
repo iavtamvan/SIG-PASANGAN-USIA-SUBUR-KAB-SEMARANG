@@ -42,28 +42,15 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-        <a class="navbar-brand py-2 px-4" href="../index.html">SIG PUS 2013 - 2017</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> Menu
-        </button>
-        <div class="collapse navbar-collapse" id="ftco-nav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="../index.html" class="nav-link">Home</a></li>
-                <li class="nav-item active"><a href="../about.html" class="nav-link">About</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">     <div class="container">         <a class="navbar-brand py-2 px-4" href="index.html">SIG PUS 2013 - 2017</a>         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">             <span class="oi oi-menu"></span> Menu         </button>         <div class="collapse navbar-collapse" id="ftco-nav">             <ul class="navbar-nav ml-auto">                 <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>                 <li class="nav-item"><a href="../admin/pages/charts/chartjs.html" class="nav-link">Data</a></li>                 <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>             </ul>         </div>     </div> </nav>
 <!-- END nav -->
 
 <section id="map">
 
 
     <script src="js/qgis2web_expressions.js"></script>
-    <script src="js/leaflet.js"></script><script src="js/L.Control.Locate.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/L.Control.Locate.min.js"></script>
     <script src="js/leaflet.rotatedMarker.js"></script>
     <script src="js/leaflet.pattern.js"></script>
     <script src="js/leaflet-hash.js"></script>
@@ -75,13 +62,15 @@
     <script src="data/kabSemarang2014_0.js"></script>
     <script>
         var highlightLayer;
+
         function highlightFeature(e) {
             highlightLayer = e.target;
             highlightLayer.openPopup();
         }
+
         var map = L.map('map', {
-            zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[-7.45606636094,109.943606804],[-7.01555861473,110.774049169]]);
+            zoomControl: true, maxZoom: 28, minZoom: 1
+        }).fitBounds([[-7.45606636094, 109.943606804], [-7.01555861473, 110.774049169]]);
         var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         L.control.locate().addTo(map);
@@ -98,15 +87,17 @@
             maxZoom: 28
         });
         basemap0.addTo(map);
+
         function setBounds() {
         }
+
         function pop_kabSemarang2014_0(feature, layer) {
             layer.on({
-                mouseout: function(e) {
+                mouseout: function (e) {
                     if (typeof layer.closePopup == 'function') {
                         layer.closePopup();
                     } else {
-                        layer.eachLayer(function(feature){
+                        layer.eachLayer(function (feature) {
                             feature.closePopup()
                         });
                     }
@@ -137,7 +128,7 @@
         }
 
         function style_kabSemarang2014_0_0(feature) {
-            if (feature.properties['<20thn'] >= 45.000000 && feature.properties['<20thn'] <= 111.600000 ) {
+            if (feature.properties['<20thn'] >= 45.000000 && feature.properties['<20thn'] <= 111.600000) {
                 return {
                     pane: 'pane_kabSemarang2014_0',
                     opacity: 1,
@@ -151,7 +142,7 @@
                     fillColor: 'rgba(247,251,255,1.0)',
                 }
             }
-            if (feature.properties['<20thn'] >= 111.600000 && feature.properties['<20thn'] <= 178.200000 ) {
+            if (feature.properties['<20thn'] >= 111.600000 && feature.properties['<20thn'] <= 178.200000) {
                 return {
                     pane: 'pane_kabSemarang2014_0',
                     opacity: 1,
@@ -165,7 +156,7 @@
                     fillColor: 'rgba(200,221,240,1.0)',
                 }
             }
-            if (feature.properties['<20thn'] >= 178.200000 && feature.properties['<20thn'] <= 244.800000 ) {
+            if (feature.properties['<20thn'] >= 178.200000 && feature.properties['<20thn'] <= 244.800000) {
                 return {
                     pane: 'pane_kabSemarang2014_0',
                     opacity: 1,
@@ -179,7 +170,7 @@
                     fillColor: 'rgba(115,179,216,1.0)',
                 }
             }
-            if (feature.properties['<20thn'] >= 244.800000 && feature.properties['<20thn'] <= 311.400000 ) {
+            if (feature.properties['<20thn'] >= 244.800000 && feature.properties['<20thn'] <= 311.400000) {
                 return {
                     pane: 'pane_kabSemarang2014_0',
                     opacity: 1,
@@ -193,7 +184,7 @@
                     fillColor: 'rgba(40,121,185,1.0)',
                 }
             }
-            if (feature.properties['<20thn'] >= 311.400000 && feature.properties['<20thn'] <= 378.000000 ) {
+            if (feature.properties['<20thn'] >= 311.400000 && feature.properties['<20thn'] <= 378.000000) {
                 return {
                     pane: 'pane_kabSemarang2014_0',
                     opacity: 1,
@@ -208,6 +199,7 @@
                 }
             }
         }
+
         map.createPane('pane_kabSemarang2014_0');
         map.getPane('pane_kabSemarang2014_0').style.zIndex = 400;
         map.getPane('pane_kabSemarang2014_0').style['mix-blend-mode'] = 'normal';
@@ -220,15 +212,19 @@
         bounds_group.addLayer(layer_kabSemarang2014_0);
         map.addLayer(layer_kabSemarang2014_0);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Kab Semarang 2014 <20thn <br /><table><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_4500111600.png" /></td><td> 45.00 - 111.60 </td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_11160178201.png" /></td><td> 111.60 - 178.20 </td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_17820244802.png" /></td><td> 178.20 - 244.80 </td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_24480311403.png" /></td><td> 244.80 - 311.40 </td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_31140378004.png" /></td><td> 311.40 - 378.00 </td></tr></table>': layer_kabSemarang2014_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps, {'Kab Semarang 2014 <20thn <br /><table><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_4500111600.png" /></td><td> 45.00 - 111.60 </td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_11160178201.png" /></td><td> 111.60 - 178.20 </td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_17820244802.png" /></td><td> 178.20 - 244.80 </td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_24480311403.png" /></td><td> 244.80 - 311.40 </td></tr><tr><td style="text-align: center;"><img src="legend/kabSemarang2014_0_31140378004.png" /></td><td> 311.40 - 378.00 </td></tr></table>': layer_kabSemarang2014_0,}, {collapsed: false}).addTo(map);
         setBounds();
         var i = 0;
-        layer_kabSemarang2014_0.eachLayer(function(layer) {
+        layer_kabSemarang2014_0.eachLayer(function (layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['kecamatan'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['kecamatan']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_kabSemarang2014_0'});
+            layer.bindTooltip((layer.feature.properties['kecamatan'] !== null ? String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['kecamatan']) + '</div>' : ''), {
+                permanent: true,
+                offset: [-0, -16],
+                className: 'css_kabSemarang2014_0'
+            });
             labels.push(layer);
             totalMarkers += 1;
             layer.added = true;
@@ -236,13 +232,13 @@
             i++;
         });
         resetLabels([layer_kabSemarang2014_0]);
-        map.on("zoomend", function(){
+        map.on("zoomend", function () {
             resetLabels([layer_kabSemarang2014_0]);
         });
-        map.on("layeradd", function(){
+        map.on("layeradd", function () {
             resetLabels([layer_kabSemarang2014_0]);
         });
-        map.on("layerremove", function(){
+        map.on("layerremove", function () {
             resetLabels([layer_kabSemarang2014_0]);
         });
     </script>
