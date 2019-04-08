@@ -2,7 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e92ab77-50b0-4fe0-8e08-7b5d89751d20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/bower_components/bootstrap-colorpicker/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/bower_components/bootstrap-colorpicker/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/bower_components/bootstrap-colorpicker/serve.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/bower_components/bootstrap-colorpicker/serve.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/dist/js/pages/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/dist/js/pages/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/UI/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/UI/buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/UI/general.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/UI/general.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/UI/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/UI/icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/UI/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/UI/modals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/UI/sliders.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/UI/sliders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/UI/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/UI/timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/charts/flot.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/charts/flot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/charts/inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/charts/inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/charts/morris.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/charts/morris.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/examples/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/examples/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/examples/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/examples/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/examples/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/examples/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/examples/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/examples/invoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/examples/pace.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/examples/pace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/examples/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/examples/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/examples/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/examples/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/forms/advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/forms/advanced.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/forms/editors.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/forms/editors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/forms/general.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/forms/general.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/layout/boxed.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/layout/boxed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/layout/collapsed-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/layout/collapsed-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/layout/fixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/layout/fixed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/mailbox/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/mailbox/compose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/mailbox/mailbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/mailbox/mailbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/mailbox/read-mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/mailbox/read-mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/tables/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/tables/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/widgets.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +60,7 @@
         <counts>
           <entry key="config" value="1" />
           <entry key="css" value="2" />
-          <entry key="html" value="28" />
+          <entry key="html" value="32" />
           <entry key="jpg" value="2" />
           <entry key="js" value="1" />
         </counts>
@@ -32,7 +68,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="28" />
+          <entry key="HTML" value="32" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -54,11 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            <state relative-caret-position="238">
+              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -67,6 +103,26 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/index4.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/index5.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/index6.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -133,6 +189,7 @@
         <option value="$PROJECT_DIR$/admin/pages/tables/data.html" />
         <option value="$PROJECT_DIR$/admin/pages/charts/chartjs.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/admin/index.html" />
       </list>
     </option>
   </component>
@@ -181,6 +238,17 @@
               <item name="sig-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="sig-new" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sig-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sig-new" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sig-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sig-new" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,13 +264,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\local\sig-new\admin" />
+      <recent name="C:\xampp\htdocs\local\sig-new\admin\pages\examples" />
       <recent name="C:\xampp\htdocs\local\sig-new\admin\pages\tables" />
       <recent name="C:\xampp\htdocs\local\sig-new\images" />
       <recent name="C:\xampp\htdocs\local\sig-new\pus2017" />
-      <recent name="C:\xampp\htdocs\local\sig-new\pus2015" />
-      <recent name="C:\xampp\htdocs\local\sig-new" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\local\sig-new\admin" />
       <recent name="C:\xampp\htdocs\local\sig-new\pus2013" />
     </key>
   </component>
@@ -230,22 +299,21 @@
       <updated>1554048158408</updated>
       <workItem from="1554048160036" duration="4521000" />
       <workItem from="1554091862948" duration="6288000" />
-      <workItem from="1554712297185" duration="1734000" />
+      <workItem from="1554712297185" duration="2353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12543000" />
+    <option name="totallyTimeSpent" value="13162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -373,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        <state relative-caret-position="238">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -383,6 +451,18 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index5.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index6.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
