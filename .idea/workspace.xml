@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e92ab77-50b0-4fe0-8e08-7b5d89751d20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pus2017/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pus2017/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/charts/chartjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/charts/chartjs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/tables/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/tables/data.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
         <counts>
           <entry key="config" value="1" />
           <entry key="css" value="2" />
-          <entry key="html" value="40" />
+          <entry key="html" value="42" />
           <entry key="jpg" value="2" />
           <entry key="js" value="1" />
         </counts>
@@ -33,7 +33,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="40" />
+          <entry key="HTML" value="42" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -55,10 +55,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="442">
               <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,6 +66,24 @@
                 <element signature="n#style#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/pages/charts/chartjs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="435" column="87" selection-start-line="435" selection-start-column="87" selection-end-line="435" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/pages/tables/data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="273" column="51" lean-forward="true" selection-start-line="273" selection-start-column="51" selection-end-line="273" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -94,6 +112,8 @@
       <find>chartJS</find>
       <find>exam</find>
       <find>home</find>
+      <find>Komulatif Umur &lt;20, Tahun 2013 - 2017 Kab. Semarang</find>
+      <find>kom</find>
     </findStrings>
     <replaceStrings>
       <replace>SIG Pasangan Usia Subur Tahun 2013 - 2017</replace>
@@ -101,6 +121,7 @@
       <replace />
       <replace>&lt;nav class=&quot;navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light&quot; id=&quot;ftco-navbar&quot;&gt; 	    &lt;div class=&quot;container&quot;&gt; 	      &lt;a class=&quot;navbar-brand py-2 px-4&quot; href=&quot;index.html&quot;&gt;SIG PUS 2013 - 2017&lt;/a&gt; 	      &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#ftco-nav&quot; aria-controls=&quot;ftco-nav&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt; 	        &lt;span class=&quot;oi oi-menu&quot;&gt;&lt;/span&gt; Menu 	      &lt;/button&gt; 	      &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;ftco-nav&quot;&gt; 	        &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt; 	          &lt;li class=&quot;nav-item active&quot;&gt;&lt;a href=&quot;index.html&quot; class=&quot;nav-link&quot;&gt;Home&lt;/a&gt;&lt;/li&gt; 	          &lt;li class=&quot;nav-item&quot;&gt;&lt;a href=&quot;/admin/pages/charts/chartjs.html&quot; class=&quot;nav-link&quot;&gt;Data&lt;/a&gt;&lt;/li&gt; 	          &lt;li class=&quot;nav-item&quot;&gt;&lt;a href=&quot;about.html&quot; class=&quot;nav-link&quot;&gt;About&lt;/a&gt;&lt;/li&gt; 	        &lt;/ul&gt; 	      &lt;/div&gt; 		  &lt;/div&gt; 	  &lt;/nav&gt;</replace>
       <replace>&lt;nav class=&quot;navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light&quot; id=&quot;ftco-navbar&quot;&gt;     &lt;div class=&quot;container&quot;&gt;         &lt;a class=&quot;navbar-brand py-2 px-4&quot; href=&quot;index.html&quot;&gt;SIG PUS 2013 - 2017&lt;/a&gt;         &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#ftco-nav&quot; aria-controls=&quot;ftco-nav&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;             &lt;span class=&quot;oi oi-menu&quot;&gt;&lt;/span&gt; Menu         &lt;/button&gt;         &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;ftco-nav&quot;&gt;             &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;                 &lt;li class=&quot;nav-item active&quot;&gt;&lt;a href=&quot;index.html&quot; class=&quot;nav-link&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;                 &lt;li class=&quot;nav-item&quot;&gt;&lt;a href=&quot;../admin/pages/charts/chartjs.html&quot; class=&quot;nav-link&quot;&gt;Data&lt;/a&gt;&lt;/li&gt;                 &lt;li class=&quot;nav-item&quot;&gt;&lt;a href=&quot;../about.html&quot; class=&quot;nav-link&quot;&gt;About&lt;/a&gt;&lt;/li&gt;             &lt;/ul&gt;         &lt;/div&gt;     &lt;/div&gt; &lt;/nav&gt;</replace>
+      <replace>Grafik PUS 2013 - 2017 Kab. Semarang</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -118,13 +139,13 @@
         <option value="$PROJECT_DIR$/pus2013/index.html" />
         <option value="$PROJECT_DIR$/pus2014/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/admin/pages/tables/data.html" />
-        <option value="$PROJECT_DIR$/admin/pages/charts/chartjs.html" />
         <option value="$PROJECT_DIR$/admin/index.html" />
         <option value="$PROJECT_DIR$/admin/index4.html" />
         <option value="$PROJECT_DIR$/admin/pages/charts/index4.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pus2017/index.html" />
+        <option value="$PROJECT_DIR$/admin/pages/charts/chartjs.html" />
+        <option value="$PROJECT_DIR$/admin/pages/tables/data.html" />
       </list>
     </option>
   </component>
@@ -187,6 +208,20 @@
             <path>
               <item name="sig-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="sig-new" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sig-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sig-new" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="tables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sig-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sig-new" type="462c0819:PsiDirectoryNode" />
               <item name="pus2017" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -240,12 +275,12 @@
       <updated>1554048158408</updated>
       <workItem from="1554048160036" duration="4521000" />
       <workItem from="1554091862948" duration="6288000" />
-      <workItem from="1554712297185" duration="3062000" />
+      <workItem from="1554712297185" duration="3279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13871000" />
+    <option name="totallyTimeSpent" value="14088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -264,7 +299,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -355,25 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/tables/data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="307" column="126" selection-start-line="307" selection-start-column="126" selection-end-line="307" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/charts/chartjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="399" column="63" selection-start-line="399" selection-start-column="63" selection-end-line="399" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index6.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -424,7 +440,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="442">
           <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -432,6 +448,20 @@
             <element signature="n#style#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pages/charts/chartjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="435" column="87" selection-start-line="435" selection-start-column="87" selection-end-line="435" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pages/tables/data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="273" column="51" lean-forward="true" selection-start-line="273" selection-start-column="51" selection-end-line="273" selection-end-column="51" />
         </state>
       </provider>
     </entry>
