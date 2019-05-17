@@ -2,9 +2,20 @@
 #map {
     background-color: #ffffff
 }
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
 th {
     text-align: left;
     vertical-align: top;
+}
+td {
+    text-align: center;
+    vertical-align: center;
+    border-bottom: 1px solid #ddd;
+    color: black;
 }
 .info {
     padding: 6px 8px;
@@ -14,7 +25,11 @@ th {
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
 }
-.info h2 {
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.info {
     margin: 0 0 5px;
     color: #777;
 }
